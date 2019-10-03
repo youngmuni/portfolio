@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  section {
+    margin-bottom: 60px;
+    position: fixed;
+  }
+  .simple {
+    display: flex;
+    font-family: monospace;
+    padding: 15px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    justify-content: space-between;
+    float: left;
+  }
+
+  .simple nav a {
+    margin: 5px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+
+  }
+  .simple a:hover {
+    color: white;
+    letter-spacing: .14em;
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+  .simple nav {
+    display: flex;
+    width: 200px;
+
+}
+/* Videoen skal være 100% i width og height for at den skal dække hele vinduet */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/*Stor præsentation tekst*/
+.inner {
+  position: absolute;
+    z-index: 9999;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 12%;
+    max-width: 840px;
+    margin-left: 12%;
+    font-size: 50px;
+}
